@@ -9,7 +9,7 @@ public class Jukebox {
             System.out.println("Спокойной ночи");
         } else {
             System.out.println("Песня не найдена");
-        };
+        }
     }
 
     public static void main(String[] args) {
