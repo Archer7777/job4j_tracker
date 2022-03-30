@@ -26,9 +26,5 @@ public class Error {
         error.printInfo();
         Error error404 = new Error(true, 404, "Error");
         error404.printInfo();
-
-
-
-
     }
 }
