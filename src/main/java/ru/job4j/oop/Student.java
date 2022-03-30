@@ -10,15 +10,11 @@ public class Student {
         System.out.println("I believe I can fly");
     }
 
-    public void bayan() {
-        System.out.println("играет на баяне");
-    }
-
     public static void main(String[] args) {
         Student petya = new Student();
-        petya.bayan();
-        petya.bayan();
-        petya.bayan();
+        petya.music();
+        petya.music();
+        petya.music();
         petya.song();
         petya.song();
         petya.song();
