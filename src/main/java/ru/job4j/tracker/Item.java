@@ -5,12 +5,9 @@ public class Item {
     private String name;
 
     public Item() {
-        this.id = id;
-        this.name = name;
     }
 
     public Item(String name) {
-        this.id = id;
         this.name = name;
     }
 
