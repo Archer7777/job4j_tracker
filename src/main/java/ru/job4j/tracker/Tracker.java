@@ -39,15 +39,6 @@ public class Tracker {
     }
 
     public Item[] findAll() {
-        Item[] itemsIsNotNULL = new Item[items.length];
-        int size = 0;
-        for (int i = 0; i < items.length - 1; i++) {
-            Item id = items[i];
-            if (id != null) {
-                itemsIsNotNULL[size] = id;
-                size++;
-            }
-        }
-        return Arrays.copyOf(itemsIsNotNULL, size);
+        return Arrays.copyOf(items, size);
     }
 }
