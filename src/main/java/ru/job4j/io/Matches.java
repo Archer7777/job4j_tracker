@@ -14,9 +14,12 @@ public class Matches {
             int matches = Integer.parseInt(input.nextLine());
             turn = !turn;
             /* Остальная логика игры. */
-            if (matches < 4 && matches > 0) {
+            if (matches <= Math.min(count, 4) && matches > 0) {
+                turn = !turn;
                 count -= matches;
                 System.out.println("Осталось спичек: " + count);
+            } else {
+                System.out.println("Вы ввели число больше 3");
             }
         }
         if (!turn) {
